@@ -4,8 +4,8 @@ html {
 
 body {
     position: relative;
-    background-color: #deecfc;
-    background: linear-gradient(#decdc3, #e0e0ec);
+    background-color: #decdc3;
+    /*background: linear-gradient(#decdc3, #e0e0ec);*/
 }
 
 body div.page-content {
@@ -19,7 +19,8 @@ body div.page-content {
 }
 
 .custom-nav a.nav-link{
-    color: #80CBC4!important
+    color: #80CBC4!important;
+    font-size: 20px;
 }
 
 .custom-nav a.nav-link:hover{
@@ -32,8 +33,11 @@ body div.page-content {
 
 .custom-nav a.navbar-brand{
     font-family: 'Walter Turncoat', cursive !important;
-    color: #00897B!important;
-    font-weight: bold
+    color: #00BCD4!important;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 3px;
+    
 } 
 .custom-nav a.navbar-brand:hover{
     color: #004D40!important
@@ -54,6 +58,9 @@ body div.page-content {
     margin: auto;
     text-align: center;
     border-radius: 3px;
+    width: auto;
+    max-width: 50%;
+    padding: 5px 20px;
 }
 
 .SoMe:hover {
@@ -69,7 +76,7 @@ body div.page-content {
     -ms-transform: scale(1.1,1.1); /* IE 9 */
     -webkit-transform: scale(1.1,1.1);  /* Safari */
     transform: scale(1.1,1.1); /* Standard syntax */
-    color: #311B92
+    color: #00796B
 }
 
 .SoMe h3 {
@@ -101,4 +108,22 @@ body div.page-content {
 /*Custom BS*/
 .tooltip {
     font-family: 'Mali', cursive, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+}
+
+@media (min-width: 800px) {
+    .custom-nav a.nav-link{
+        color: #80CBC4!important;
+        font-size: 26px;
+        margin: 0 10px;
+    }
+    .custom-nav a.navbar-brand{
+        font-size: 30px;        
+    }
+}
+
+@media (max-width: 320px) {
+
+    .custom-nav a.navbar-brand{
+        font-size: 23px;
+    }
 }
