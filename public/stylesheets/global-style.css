@@ -4,7 +4,7 @@ html {
 
 body {
     position: relative;
-    background-color: #decdc3;
+    background-color: #FDFFCD;
     /*background: linear-gradient(#decdc3, #e0e0ec);*/
 }
 
@@ -33,14 +33,14 @@ body div.page-content {
 
 .custom-nav a.navbar-brand{
     font-family: 'Walter Turncoat', cursive !important;
-    color: #00BCD4!important;
+    color: #4DD0E1!important;
     font-weight: bold;
     font-size: 1.7rem;
     padding: 3px;
     
 } 
 .custom-nav a.navbar-brand:hover{
-    color: #004D40!important
+    color: #00BCD4!important
 } 
 .custom-nav ul.navbar-nav a.nav-link.active {
     color: #00796B!important;
