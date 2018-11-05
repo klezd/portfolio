@@ -54,12 +54,18 @@ body div.page-content {
 #projects, #profile, #social-media {
     padding-top:40px;
 }
+
 .SoMe {
     margin: auto;
     text-align: center;
     border-radius: 3px;
+}
+
+.SoMe .SoMeIcon {
+    margin: auto;
     width: auto;
-    max-width: 50%;
+    max-width: 70%;
+    text-align: center;
     padding: 5px 20px;
 }
 
@@ -81,7 +87,7 @@ body div.page-content {
 
 .SoMe h3 {
     color: red;
-    font-family: 'Mali', cursive;
+    font-family: 'Ubuntu Mono', monospace !important;
 }
 
 @keyframes borderboxshadow {
