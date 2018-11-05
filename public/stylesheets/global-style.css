@@ -31,6 +31,7 @@ body div.page-content {
 }
 
 .custom-nav a.navbar-brand{
+    font-family: 'Walter Turncoat', cursive !important;
     color: #00897B!important;
     font-weight: bold
 } 
