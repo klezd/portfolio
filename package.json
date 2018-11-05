@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "this is the simple portfolio made with Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "portfolio",
+    "heroku",
+    "git",
+    "nodejs"
+  ],
+  "author": "Sienna",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "https": "^1.0.0"
+  }
+}

@@ -1,0 +1,103 @@
+/*Body*/
+html {
+}
+
+body {
+    position: relative;
+    background-color: #deecfc;
+    background: linear-gradient(#decdc3, #e0e0ec);
+}
+
+body div.page-content {
+    font-family: 'Montserrat', sans-serif !important;
+    margin-bottom: 30px;
+}
+/* Navbar */
+.custom-nav {
+    font-family: 'Ubuntu Mono', monospace !important;
+    background-color: #1d2323!important
+}
+
+.custom-nav a.nav-link{
+    color: #80CBC4!important
+}
+
+.custom-nav a.nav-link:hover{
+    color: #00897B!important
+}
+
+.custom-nav a.nav-link:active{
+    color: #00897B!important
+}
+
+.custom-nav a.navbar-brand{
+    color: #00897B!important;
+    font-weight: bold
+} 
+.custom-nav a.navbar-brand:hover{
+    color: #004D40!important
+} 
+.custom-nav ul.navbar-nav a.nav-link.active {
+    color: #00796B!important;
+    font-weight: bold!important
+}
+
+/*Body*/
+#top {
+    padding-top:75px;
+}
+#projects, #profile, #social-media {
+    padding-top:40px;
+}
+.SoMe {
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.SoMe:hover {
+    animation-name: borderboxshadow;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+}
+.SoMe a {
+    font-size: 35px;
+    color: #757575
+}
+.SoMe a:hover {
+    -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1);  /* Safari */
+    transform: scale(1.1,1.1); /* Standard syntax */
+    color: #311B92
+}
+
+.SoMe h3 {
+    color: red;
+    font-family: 'Mali', cursive;
+}
+
+@keyframes borderboxshadow {
+    from {
+        box-shadow: none;
+    }
+    to {
+        box-shadow: 5px 5px 5px #616161 ;
+    }
+}
+/* Footer */
+.footer {
+    font-family: 'Ubuntu Mono', monospace !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color:  #80CBC4;
+    background-color: #1d2323!important;
+    border-top: 1px solid  #80CBC4;
+}
+
+/*Custom BS*/
+.tooltip {
+    font-family: 'Mali', cursive, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+}
