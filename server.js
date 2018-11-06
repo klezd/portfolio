@@ -12,13 +12,12 @@ app.set('view engine', 'ejs');
 
 // Root page will be the index page (views/pages/index)
 app.get('/', function(request, response) {
-    response.render('pages/index', {title: "Home Page - Sienna's Portfolio"});
+    response.render('pages/index', {title: "Quynh Dao - Portfolio", page: "home"});
 });
 
-app.get('/profile', function(req, res) {
-    res.render('pages/profile', {title: "Profile Page - Sienna's Portfolio"});
+app.get('/profile', function(request, response) {
+    response.render('pages/profile', {title: "Quynh Dao - Profile", page: "profile"});
 });
-
 
 app.listen(app.get('port'), function() {
     console.log('Up and running in a port:', PORT);

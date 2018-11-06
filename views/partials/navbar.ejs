@@ -1,23 +1,43 @@
 <nav class="navbar navbar-expand-md fixed-top navbar-dark custom-nav" id="main-navbar">
-    <a class="navbar-brand" href="/">Sienna's Portfolio</a>
+    <a class="navbar-brand" href="/">Quynh Dao (Sienna)</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> 
+
+    <% if(page == "home"){ %>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" id="topnav">
+                    <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" id="projectsnav">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item" id="profilenav">
+                    <a class="nav-link" href="#profile">Profile</a>
+                </li>   
+                <li class="nav-item" id="somenav">
+                    <a class="nav-link" href="#social-media">Social Media</a>
+                </li>                   
+            </ul>
+        </div>
+    <% } else{ %>  
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" id="topnav">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" id="projectsnav">
+                    <a class="nav-link" href="/#projects">Projects</a>
+                </li>
+                <li class="nav-item" id="profilenav">
+                    <a class="nav-link" href="/profile">Profile</a>
+                </li>   
+                <li class="nav-item" id="somenav">
+                    <a class="nav-link" href="/#social-media">Social Media</a>
+                </li>                   
+            </ul>
+        </div>
+    <% } %>
     
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#profile">Profile</a>
-            </li>   
-            <li class="nav-item">
-                <a class="nav-link" href="#social-media">Social Media</a>
-            </li>                   
-        </ul>
-    </div>
 </nav>

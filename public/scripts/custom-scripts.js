@@ -10,4 +10,11 @@ $(window).on('activate.bs.scrollspy', function (e) {
 
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
-  })
+})
+
+$(document).ready( function() {
+    $(".navbar li.nav-item").hasClass("active") ? $(".navbar li.nav-item").removeClass("active") : {};
+    console.log(window.location.pathname);
+    $locationUrl = window.location.pathname;
+    $locationUrl.includes("/profile") ? $("li#profilenav").addClass("active") : {} ;
+});

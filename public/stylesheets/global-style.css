@@ -4,8 +4,13 @@ html {
 
 body {
     position: relative;
-    background-color: #FDFFCD;
+    background-color: rgb(95, 96, 97);
+    color:white;
     /*background: linear-gradient(#decdc3, #e0e0ec);*/
+}
+
+a:after {
+    content: "";
 }
 
 body div.page-content {
@@ -15,7 +20,7 @@ body div.page-content {
 /* Navbar */
 .custom-nav {
     font-family: 'Ubuntu Mono', monospace !important;
-    background-color: #1d2323!important
+    background-color: #123!important
 }
 
 .custom-nav a.nav-link{
@@ -42,17 +47,36 @@ body div.page-content {
 .custom-nav a.navbar-brand:hover{
     color: #00BCD4!important
 } 
+
 .custom-nav ul.navbar-nav a.nav-link.active {
+    color: #00796B!important;
+    font-weight: bold!important
+}
+
+.custom-nav ul.navbar-nav li.active a.nav-link {
     color: #00796B!important;
     font-weight: bold!important
 }
 
 /*Body*/
 #top {
-    padding-top:75px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 75px;
+    background: #123;
 }
 #projects, #profile, #social-media {
     padding-top:40px;
+}
+
+#top a {
+
+    font-weight: bolder;
+    color: rgb(219, 240, 237) !important;
+}
+
+#top a:hover {
+    text-decoration: none;
 }
 
 .SoMe {
@@ -76,13 +100,19 @@ body div.page-content {
 }
 .SoMe a {
     font-size: 35px;
-    color: #757575
+    color: #aaaaaa
 }
 .SoMe a:hover {
     -ms-transform: scale(1.1,1.1); /* IE 9 */
     -webkit-transform: scale(1.1,1.1);  /* Safari */
     transform: scale(1.1,1.1); /* Standard syntax */
-    color: #00796B
+    color: #00BCD4
+}
+.SoMe a:after {
+    content: "";
+}
+.SoMe i:hover::after {
+    content: "";
 }
 
 .SoMe h3 {
@@ -107,7 +137,7 @@ body div.page-content {
     text-align: center;
     width: 100%;
     color:  #80CBC4;
-    background-color: #1d2323!important;
+    background-color: #123!important;
     border-top: 1px solid  #80CBC4;
 }
 
