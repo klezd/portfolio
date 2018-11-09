@@ -73,8 +73,9 @@ body div.page-content {
 
 #top a {
     font-family: 'Press Start 2P', cursive;
-    font-weight: bolder;
+    font-size: 28px;
     color: rgb(219, 240, 237);
+    
 }
 
 #top a:hover {
