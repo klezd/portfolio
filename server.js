@@ -26,4 +26,4 @@ app.listen(app.get('port'), function() {
 var https = require('https')
 setInterval(function() {
     https.get("https://sienna-portfolio-197.herokuapp.com");
-}, 1785000);
+}, 1700000);
